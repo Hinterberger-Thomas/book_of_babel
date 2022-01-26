@@ -1,0 +1,108 @@
+{
+  "main": {
+    "id": "1a1df26b1dd86071",
+    "type": "split",
+    "children": [
+      {
+        "id": "7aa65286129216b3",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "programming/functional programming.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "65ee84b5216f43a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "5025940834ec3d19",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "47d574fd1615ea0c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1442e77a69a647a2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "fa52b4a49a2be813",
+    "type": "split",
+    "children": [
+      {
+        "id": "f13ae66845d33c44",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cc8dcbb2fc5b2a68",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "programming/functional programming.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "09a2f5f13898eb4a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "7aa65286129216b3",
+  "lastOpenFiles": [
+    "programming/functional programming.md",
+    "programming/testinger.md",
+    "testinger.md",
+    "Untitled.md",
+    "README.md"
+  ]
+}
