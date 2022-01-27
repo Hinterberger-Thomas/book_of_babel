@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "programming/functional programming.md",
+            "file": "programming/immutability.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/functional programming.md",
+                "file": "programming/immutability.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -90,7 +90,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -99,10 +100,11 @@
   },
   "active": "7aa65286129216b3",
   "lastOpenFiles": [
+    "programming/immutability.md",
     "programming/functional programming.md",
+    "README.md",
     "programming/testinger.md",
     "testinger.md",
-    "Untitled.md",
-    "README.md"
+    "Untitled.md"
   ]
 }
