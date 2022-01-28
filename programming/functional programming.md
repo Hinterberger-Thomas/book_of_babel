@@ -1,21 +1,13 @@
 # what is functional programming
-In simple terms it is nothing more than [[pure functions]] and state that is (immutable)[immutability]; Using these two options lead to better read- and maintainability. FP is inspired by mathematical functions, which always produce the same output, giving the same input. 
+In simple terms it is nothing more than [[pure functions]] and state that is [[immutability]]; Using these two options lead to better read- and maintainability. FP is inspired by mathematical functions, which always produce the same output, giving the same input. 
 
 ## why 
-Using a programming paradigm can increase the maintenance and readability; however, it can lead to less performant code. In the end, it comes down to personal preference and what is needed. High performant code is usually not the most important requirement; Code that is maintainable and features can simply be added, is far more valuable. 
+- State has to be immutabile and that leads to a better understanding of state changes.
+- You always know what you gonna get. [[pure functions]] always produce predictable results
+- Due to the nature of [[pure functions]] code is getting split into smaller bits and is, therefore, more readable
+	- Easier testing (predictable behaviour)
+	- [[pure functions]] do not depend on the global state, so they only need the necessary parameters
+- The separation of logic and data makes code easier to read [[object oriented programming]]
+- [[Thread safety]]; due to immutable state
 
-## how does it work
-**[[immutability]]**
-- Data won't change
-	- The core principle of [[immutability]] is that data won't change
-	- The advantage of this would be that we are in control of the data and it won't change behind our backs (no [[side effekts]]).
-- [[Thread-safety]]
-	- Because of the [[immutability]] it is guaranteed that two threads won't change the obj at the same time
-	- This also means you do not have to implement any functionality to provide thread safety
-- Better cacheability
-	- due to the saving of the previous state
-**[[pure functions]]**
-- They are simply to debug 
-- Same input results in same output 
-- They are easier to understand 
-**[[Recursion]]**
+
