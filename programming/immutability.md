@@ -4,29 +4,32 @@ immutability means the state is not changing. Practically speaking, immutability
 ## how to safe state if it can't be changed
 Copies, copies and much more copies. Is the most simple solution. Instead of mutating the var, you create a mutated copy of it.
 
-Bad example: 
+Bad example, the var name is changed (immutability rule violated): 
 ``` javascript
 name = "Leon"
 name += " House"
 ```
-The var name is changed (immutability rule violated)
 
+No var is getting changed (immutability rule being used):
 ``` javascript 
 firstname = "Leon"
 lastname = "House"
 name = "${firstname} ${lastname}"
 ```
-No var is getting changed (immutability rule being used)
+
 
 #### Performance
 This copy hell of course usually leads to less performant code. Instead of mutating the state, you create a whole copy, which can result in a lot of unused memory.
 ``` ad-example
+collapse: close
 Imagine a big array (~3 million values). You want to edit only the first, however, you need to copy the whole thing (pretty expensive isn't it) 
 
 ```
 
 ### Persistent Data Structures (PDS)
 ``` ad-note
+title: PDS & javascript
+collapse: close
 Javascript does not have a native implementation of PDS, therefore I used the library `Immutable.js`
 ```
 Simply spoken PDS are like git. With every change, they create a new "version" of themself. Using such structures has many benefits like performance improvements.
@@ -78,3 +81,4 @@ var nextState = toggleTodo(todos, 't2148bf88')
 This operation takes only **1.2 ms** to run. More than 100x faster!
 
 [took my infos](https://medium.com/@dtinth/immutable-js-persistent-data-structures-and-structural-sharing-6d163fbd73d2)
+

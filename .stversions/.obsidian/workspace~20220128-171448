@@ -9,8 +9,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "programming/pure functions.md",
-            "mode": "preview"
+            "file": "programming/object oriented programming.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/pure functions.md",
+                "file": "programming/object oriented programming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,15 +100,15 @@
   },
   "active": "8c47b67a84055444",
   "lastOpenFiles": [
-    "programming/pure functions.md",
     "programming/object oriented programming.md",
-    "programming/inheritance.md",
-    "programming/immutability.md",
     "programming/programming paradigm.md",
+    "programming/immutability.md",
+    "programming/pure functions.md",
     "programming/functional programming.md",
     "templates/default.md",
     "Thread safety.md",
     "programming/Thread safety.md",
-    "programming/[[immutability]].md"
+    "programming/[[immutability]].md",
+    "README.md"
   ]
 }

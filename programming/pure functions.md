@@ -4,6 +4,7 @@
 3. They only result in a return value
 
 ``` ad-example
+collapse: close
 There are probably a lot of pure function you already used like: 
 - strlen()
 - pow()
@@ -12,26 +13,33 @@ There are probably a lot of pure function you already used like:
 - time()
 ```
 
-Example of a pure function:
-
+pure:
 ``` javascript
 function add(y,x) {
 	return y + x;
 }
 ```
 
-Example of a non pure function:
+non pure:
 ``` javascript
 var a = 5;
 function badAdd(y, x){
 	a = y + x;
 }
 ```
+also not pure:
+``` javascript
+var a = 5;
+function badAdd(y, x){
+	return y + x + a;
+}
+```
 This function is modifying the global state. 
-**Bad !!!!!!!!!**
 
 ``` ad-note
-Sometimes it is hard to tell if a function is  pure; However, the rule of thumb is that pure functions are like a lookup table
+title: Is this function pure?
+collapse: close
+Sometimes it is hard to tell if a function is  pure; However, the rule of thumb is that pure function is like a lookup table
 
 Example:
 
@@ -41,5 +49,5 @@ Example:
 | "GOTO"       | 	4   |
 | "Copenhagen" | 	10  |
 
-If the result of your functions looks like that then it's a pure function 
+If the result of your functions looks like a lookup table then it's a pure function 
 ```
