@@ -4,7 +4,7 @@
 3. They only result in a return value
 
 ``` ad-example
-collapse: close
+collapse: open
 There are probably a lot of pure function you already used like: 
 - strlen()
 - pow()
@@ -38,8 +38,8 @@ This function is modifying the global state.
 
 ``` ad-note
 title: Is this function pure?
-collapse: close
-Sometimes it is hard to tell if a function is  pure; However, the rule of thumb is that pure function is like a lookup table
+collapse: open
+Sometimes it is hard to tell if a function is  pure; However, the rule of thumb is that a pure function is like a lookup table!
 
 Example:
 
@@ -49,5 +49,5 @@ Example:
 | "GOTO"       | 	4   |
 | "Copenhagen" | 	10  |
 
-If the result of your functions looks like a lookup table then it's a pure function 
+If the result of your function looks like a lookup table then it's a pure function 
 ```

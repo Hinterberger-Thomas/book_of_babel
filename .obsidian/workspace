@@ -4,13 +4,13 @@
     "type": "split",
     "children": [
       {
-        "id": "8c47b67a84055444",
+        "id": "a1de5e8dd62c0b76",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "programming/pure functions.md",
-            "mode": "preview"
+            "file": "school/AI.md",
+            "mode": "source"
           }
         }
       }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/pure functions.md",
+                "file": "school/AI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,17 +98,17 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "8c47b67a84055444",
+  "active": "a1de5e8dd62c0b76",
   "lastOpenFiles": [
-    "programming/pure functions.md",
+    "school/AI.md",
+    "programming/functional programming.md",
+    "programming/programming paradigm.md",
     "programming/object oriented programming.md",
     "programming/inheritance.md",
+    "school/Untitled.md",
+    "programming/pure functions.md",
+    "README.md",
     "programming/immutability.md",
-    "programming/programming paradigm.md",
-    "programming/functional programming.md",
-    "templates/default.md",
-    "Thread safety.md",
-    "programming/Thread safety.md",
-    "programming/[[immutability]].md"
+    "templates/default.md"
   ]
 }

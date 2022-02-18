@@ -21,7 +21,7 @@ name = "${firstname} ${lastname}"
 #### Performance
 This copy hell of course usually leads to less performant code. Instead of mutating the state, you create a whole copy, which can result in a lot of unused memory.
 ``` ad-example
-collapse: close
+collapse: open
 Imagine a big array (~3 million values). You want to edit only the first, however, you need to copy the whole thing (pretty expensive isn't it) 
 
 ```
@@ -29,7 +29,7 @@ Imagine a big array (~3 million values). You want to edit only the first, howeve
 ### Persistent Data Structures (PDS)
 ``` ad-note
 title: PDS & javascript
-collapse: close
+collapse: open
 Javascript does not have a native implementation of PDS, therefore I used the library `Immutable.js`
 ```
 Simply spoken PDS are like git. With every change, they create a new "version" of themself. Using such structures has many benefits like performance improvements.
